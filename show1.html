@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+	<meta name="applicable-device" content="pc,mobile">
+	<link rel="stylesheet" href="./public/css/show1.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<title>日本</title>
+</head>
+
+<body>
+
+	<div class="bg"></div>
+	<div class="div1">
+		<div>
+			<div class="col-lg-2 col-md-2 col-xl-2"></div>
+			<img class="img1 col-lg-8 col-md-8 col-xl-8" src="image/rb/fss.jpg" alt="">
+		</div>
+		<div class="jian container"></div>
+		<div class="container">
+			<div class="col-lg-2 col-md-2 col-xl-2"></div>
+			<div class="p1 col-lg-8 col-md-8 col-xl-8">富士山是小日本的最高峰，别人都说去日本不去富士山就等于没去,因为富士山是日本ren文化的象征。</div>
+		</div>
+		<div class=" div2">
+			<div>
+				<div class="col-lg-2 col-md-2 col-xl-2"></div>
+				<img class="col-lg-8 col-md-8 col-xl-8" src="image/rb/zcm.jpg" alt="">
+			</div>
+			<div class="jian2"></div>
+			<div class="container">
+				<div class="col-lg-2 col-md-2 col-xl-2"></div>
+				<div class="p1 col-lg-8 col-md-8 col-xl-8">位于东京的豪德寺,据说是招财猫的发源地之一。
+				</div>
+			</div>
+			<div class="div2">
+				<div>
+					<div class="col-lg-2 col-md-2 col-xl-2"></div>
+					<img class="col-lg-8 col-md-8 col-xl-8" src="image/rb/qms.jpg" alt="">
+				</div>
+				<div class="jian"></div>
+				<div class="container">
+					<div class="col-lg-2 col-md-2 col-xl-2"></div>
+					<div class="p1 col-lg-8 col-md-8 col-xl-8">
+						这里也是车神（藤原拓海）的发迹地:秋名山
+					</div>
+				</div>
+			</div>
+			<div class="div2">
+				<div>
+					<div class="col-lg-2 col-md-2 col-xl-2"></div>
+					<img class="col-lg-8 col-md-8 col-xl-8" src="image/rb/yh.jpg" alt="">
+				</div>
+				<div class="jian"></div>
+				<div class="container">
+					<div class="col-lg-2 col-md-2 col-xl-2"></div>
+					<div class="p1 col-lg-8 col-md-8 col-xl-8">
+						烟火大会：日本传统文化活动，自江户时代开始兴起，是日本夏日庙会活动之一。<br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script class="autoinsert" src="js/jquery-3.4.1.min.js"></script>
+<script src="js/snowfall.jquery.js"></script>
+<script>
+	$(document).ready(function () {
+		$(".back").click(function () {
+			window.location.href = "page1.html";
+		});
+		$(document).snowfall('clear');
+		$(document).snowfall({
+			image: "image/rb/huaban.png",
+			flakeCount: 100,
+			minSize: 5,
+			maxSize: 22
+		});
+	});
+
+</script>
+
+</html>

@@ -1,0 +1,68 @@
+/* CSS Document */
+.back {
+	border-radius: 50%;
+	background: #fff;
+	background-size: 10%;
+	position: fixed;
+	border: 1px #000 solid;
+	top: 50px;
+	left: 30px;
+	width: 50px;
+	height: 50px;
+	z-index: 1000;
+	text-align: center;
+	line-height: 50px;
+}
+
+.bg {
+	height: 1750px;
+	width: 100%;
+	background: url(../image/rb/yhs.jpg) no-repeat;
+	background-size: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+.div1 {
+	margin-top: 80px;
+
+}
+
+.denglu {
+	width: 164px;
+	height: 95px;
+	text-align: center;
+	position: fixed;
+	right: 54px;
+	bottom: 620px;
+	line-height: 95px;
+	float: right;
+	z-index: 5;
+	background: url(../image/cloudMedium.png) no-repeat 0px 0px;
+}
+
+.denglu>a {
+	color: grey;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.p1 {
+	font-size: 20px;
+	text-align: center;
+	color: rgb(19, 7, 1);
+}
+
+.jian {
+	width: 100px;
+	height: 700px;
+}
+
+.div2 {
+	margin-top: 100px;
+}
+
+.jian2 {
+	width: 100px;
+	height: 800px;
+}

@@ -1,0 +1,63 @@
+.div1 {
+    animation: bg1 30s linear infinite forwards alternate;
+}
+
+@keyframes bg1 {
+    /* 0% {
+        transform: scale(1);
+        background-size: 100% 800px;
+
+
+    } */
+
+    0% {
+        background: url(../image/03.jpg) no-repeat;
+        background-size: 100% 800px;
+
+
+    }
+
+    20% {
+        background: url(../image/厦门.jpg) no-repeat;
+        background-size: 100% 800px;
+
+
+    }
+
+    40% {
+        background: url(../image/aifeier.jpg) no-repeat;
+        background-size: 100% 800px;
+
+
+    }
+
+
+    60% {
+        transform: scale(1);
+        background: url(../image/bxdd.jpg) no-repeat;
+        background-size: 100% 800px;
+
+    }
+
+    80% {
+        transform: scale(1);
+        background: url(../image/fss.jpg) no-repeat;
+        background-size: 100% 800px;
+
+    }
+
+    90% {
+        transform: scale(1);
+        background: url(../image/tiantan.jpg) no-repeat;
+        background-size: 100% 800px;
+
+    }
+
+    100% {
+        transform: scale(1);
+        background: url(../image/ttw.jpg) no-repeat;
+        background-size: 100% 800px;
+
+    }
+
+}
